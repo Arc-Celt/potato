@@ -54,4 +54,5 @@ annotation_schemes:
       - name: "{{instance_obj.candidates[17]}}"
       - name: "{{instance_obj.candidates[18]}}"
       - name: "{{instance_obj.candidates[19]}}"
+      - name: "{{instance_obj.candidates[20]}}"
     sequential_key_binding: False

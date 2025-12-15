@@ -148,6 +148,8 @@ def main():
 
         random.shuffle(candidates)
 
+        candidates.append("None of the above")
+
         display_text = (f"<h1>{item['name']}</h1>"
                         f"<p>{item['biography']}</p>")
 
