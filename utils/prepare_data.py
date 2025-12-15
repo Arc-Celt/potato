@@ -36,14 +36,12 @@ def main():
     parser.add_argument(
         "--bio_file",
         default=None,
-        help=("Path to character biography file (JSON/JSONL/CSV). "
-              "If not provided, uses char_bio_merged.jsonl in the same "
-              "directory as model_outputs.")
+        help=("Path to character biography file. ")
     )
     parser.add_argument(
         "--output",
-        default="data/keyword_annotation.jsonl",
-        help="Output path for Potato data"
+        default=None,
+        help=("Output path for Potato data.")
     )
     parser.add_argument(
         "--sample_size",
@@ -59,6 +57,15 @@ def main():
     )
 
     args = parser.parse_args()
+
+    if args.output is None:
+        model_outputs_path = Path(args.model_outputs)
+        filename = model_outputs_path.stem
+        if filename.startswith("char_personality_"):
+            model_name = filename.replace("char_personality_", "", 1)
+        else:
+            model_name = filename
+        args.output = f"data/keyword_annotation_{model_name}.jsonl"
 
     print(f"Loading model outputs from {args.model_outputs}...")
     model_data = load_jsonl(args.model_outputs)

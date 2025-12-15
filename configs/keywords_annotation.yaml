@@ -3,8 +3,12 @@
 port: 8000
 
 # Input connection
+# Configure which model's output to validate here:
+# - keyword_annotation_gpt5_mini_v2.jsonl
+# - keyword_annotation_qwen3_30b_a3b_instruct_fp8.jsonl
+# - keyword_annotation_qwen3_32b_fp8.jsonl
 data_files:
-  - "data/keyword_annotation.jsonl"
+  - "data/keyword_annotation_gpt5_mini_v2.jsonl"
 
 item_properties:
   id_key: "id"
