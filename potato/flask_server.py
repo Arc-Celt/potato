@@ -630,7 +630,7 @@ def load_all_data(config):
         logger.debug("Reading data from " + data_fname)
 
         if fmt in ["json", "jsonl"]:
-            with open(data_fname, "rt") as f:
+            with open(data_fname, "rt", encoding="utf-8") as f:
                 for line_no, line in enumerate(f):
                     item = json.loads(line)
 
