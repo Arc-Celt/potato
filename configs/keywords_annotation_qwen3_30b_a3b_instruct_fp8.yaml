@@ -1,31 +1,27 @@
-# Potato Configuration for Keyword Validation
+# Potato Configuration for Keyword Validation for Qwen3 30B A3B Instruct FP8
 
-port: 8000
+port: 8001
 
 # Input connection
-# Configure which model's output to validate here:
-# - keyword_annotation_gpt5_mini_v2.jsonl
-# - keyword_annotation_qwen3_30b_a3b_instruct_fp8.jsonl
-# - keyword_annotation_qwen3_32b_fp8.jsonl
 data_files:
-  - "data/keyword_annotation_gpt5_mini_v2.jsonl"
+  - "data/keyword_annotation_qwen3_30b_a3b_instruct_fp8.jsonl"
 
 item_properties:
   id_key: "id"
   text_key: "text"
 
 # Output configuration
-output_annotation_dir: "annotation_output/keyword_annotation/"
+output_annotation_dir: "annotation_output/keyword_annotation_qwen3_30b_a3b_instruct_fp8/"
 output_annotation_format: "jsonl"
 
 # User Configuration
 user_config:
   allow_all_users: True
 
-# Task Name (Required)
-annotation_task_name: "Keyword Annotation"
+# Task Name
+annotation_task_name: "Keyword Annotation - Qwen3 30B A3B Instruct FP8"
 
-# Alert configuration (Required)
+# Alert configuration
 alert_time_each_instance: 10000000
 
 # Annotation Scheme

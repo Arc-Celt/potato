@@ -1,0 +1,54 @@
+# Potato Configuration for Keyword Validation for Qwen3 32B FP8
+
+port: 8002
+
+# Input connection
+data_files:
+  - "data/keyword_annotation_qwen3_32b_fp8.jsonl"
+
+item_properties:
+  id_key: "id"
+  text_key: "text"
+
+# Output configuration
+output_annotation_dir: "annotation_output/keyword_annotation_qwen3_32b_fp8/"
+output_annotation_format: "jsonl"
+
+# User Configuration
+user_config:
+  allow_all_users: True
+
+# Task Name
+annotation_task_name: "Keyword Annotation - Qwen3 32B FP8"
+
+# Alert configuration
+alert_time_each_instance: 10000000
+
+# Annotation Scheme
+annotation_schemes:
+  - annotation_type: "multiselect"
+    name: "valid_keywords"
+    description: "Select all keywords that accurately describe the character's personality based on their biography."
+    labels:
+      - name: "{{instance_obj.candidates[0]}}"
+      - name: "{{instance_obj.candidates[1]}}"
+      - name: "{{instance_obj.candidates[2]}}"
+      - name: "{{instance_obj.candidates[3]}}"
+      - name: "{{instance_obj.candidates[4]}}"
+      - name: "{{instance_obj.candidates[5]}}"
+      - name: "{{instance_obj.candidates[6]}}"
+      - name: "{{instance_obj.candidates[7]}}"
+      - name: "{{instance_obj.candidates[8]}}"
+      - name: "{{instance_obj.candidates[9]}}"
+      - name: "{{instance_obj.candidates[10]}}"
+      - name: "{{instance_obj.candidates[11]}}"
+      - name: "{{instance_obj.candidates[12]}}"
+      - name: "{{instance_obj.candidates[13]}}"
+      - name: "{{instance_obj.candidates[14]}}"
+      - name: "{{instance_obj.candidates[15]}}"
+      - name: "{{instance_obj.candidates[16]}}"
+      - name: "{{instance_obj.candidates[17]}}"
+      - name: "{{instance_obj.candidates[18]}}"
+      - name: "{{instance_obj.candidates[19]}}"
+      - name: "{{instance_obj.candidates[20]}}"
+    sequential_key_binding: False
