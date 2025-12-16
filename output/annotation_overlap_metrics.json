@@ -1,0 +1,637 @@
+{
+  "overall": {
+    "total_instances": 30,
+    "aggregate_metrics": {
+      "precision_mean": 0.8961111111111111,
+      "precision_std": 0.23080709170267485,
+      "recall_mean": 0.614404761904762,
+      "recall_std": 0.2831679439257208,
+      "f1_mean": 0.6981357531357532,
+      "f1_std": 0.247902090601617,
+      "jaccard_mean": 0.5861111111111111,
+      "jaccard_std": 0.26570197056667333
+    }
+  },
+  "per_user": {
+    "celt313@student.ubc.ca": {
+      "total_instances": 30,
+      "aggregate_metrics": {
+        "precision_mean": 0.8961111111111111,
+        "precision_std": 0.23080709170267485,
+        "recall_mean": 0.614404761904762,
+        "recall_std": 0.2831679439257208,
+        "f1_mean": 0.6981357531357532,
+        "f1_std": 0.247902090601617,
+        "jaccard_mean": 0.5861111111111111,
+        "jaccard_std": 0.26570197056667333
+      },
+      "per_instance": [
+        {
+          "instance_id": "ayukawa__hana_253481.json",
+          "model_keywords": [
+            "Cheerful",
+            "Competitive",
+            "Dedicated",
+            "Wild"
+          ],
+          "annotated_keywords": [
+            "Cheerful",
+            "Competitive",
+            "Wild"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "jaccard": 0.75
+          }
+        },
+        {
+          "instance_id": "rune__asurei_99267.json",
+          "model_keywords": [
+            "Dedicated",
+            "Kind",
+            "Responsible",
+            "Torn"
+          ],
+          "annotated_keywords": [
+            "Dedicated",
+            "Responsible"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "jaccard": 0.5
+          }
+        },
+        {
+          "instance_id": "zack_140955.json",
+          "model_keywords": [
+            "Emotional",
+            "Growth-Oriented",
+            "Stubborn"
+          ],
+          "annotated_keywords": [],
+          "metrics": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "jaccard": 0.0
+          }
+        },
+        {
+          "instance_id": "xue__yang_198172.json",
+          "model_keywords": [
+            "Arrogant",
+            "Cold-hearted",
+            "Cunning",
+            "Merciless",
+            "Vengeful"
+          ],
+          "annotated_keywords": [
+            "Arrogant",
+            "Cold-hearted",
+            "Cunning",
+            "Merciless",
+            "Vengeful"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "jaccard": 1.0
+          }
+        },
+        {
+          "instance_id": "shiba__hibino_41302.json",
+          "model_keywords": [
+            "Demure",
+            "Introverted",
+            "Kind",
+            "Reserved"
+          ],
+          "annotated_keywords": [
+            "Reserved"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1": 0.4,
+            "jaccard": 0.25
+          }
+        },
+        {
+          "instance_id": "minase__nayuki_248.json",
+          "model_keywords": [
+            "Considerate",
+            "Hardworking",
+            "Kind",
+            "Laid-back",
+            "Naive"
+          ],
+          "annotated_keywords": [
+            "Bad at waking up",
+            "Loves cute animals",
+            "Naive"
+          ],
+          "metrics": {
+            "precision": 0.3333333333333333,
+            "recall": 0.2,
+            "f1": 0.25,
+            "jaccard": 0.14285714285714285
+          }
+        },
+        {
+          "instance_id": "tsukiyuki__miyako_249704.json",
+          "model_keywords": [
+            "Compassionate",
+            "Expressionless",
+            "Kind",
+            "Leader-like"
+          ],
+          "annotated_keywords": [
+            "Compassionate",
+            "Expressionless",
+            "Kind",
+            "Leader-like",
+            "Loyal to team"
+          ],
+          "metrics": {
+            "precision": 0.8,
+            "recall": 1.0,
+            "f1": 0.888888888888889,
+            "jaccard": 0.8
+          }
+        },
+        {
+          "instance_id": "alexander_bogard__macus_15270.json",
+          "model_keywords": [
+            "Calm",
+            "Leadership",
+            "Mysterious",
+            "Tactical"
+          ],
+          "annotated_keywords": [
+            "Calm",
+            "Leadership",
+            "Tactical"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "jaccard": 0.75
+          }
+        },
+        {
+          "instance_id": "ohara__scarlet_6620.json",
+          "model_keywords": [
+            "Determined",
+            "Lonely",
+            "Passionate",
+            "Sense of Justice",
+            "Tsundere"
+          ],
+          "annotated_keywords": [
+            "Lonely",
+            "Sense of Justice"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.4,
+            "f1": 0.5714285714285715,
+            "jaccard": 0.4
+          }
+        },
+        {
+          "instance_id": "miketsukami__soushi_47007.json",
+          "model_keywords": [
+            "Calm",
+            "Jealous",
+            "Kind",
+            "Loyal",
+            "Pure",
+            "Reserved"
+          ],
+          "annotated_keywords": [
+            "Calm",
+            "Kind",
+            "Pure",
+            "Reserved"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "jaccard": 0.6666666666666666
+          }
+        },
+        {
+          "instance_id": "inchikin_214268.json",
+          "model_keywords": [
+            "Cautious",
+            "Cunning",
+            "Deceptive"
+          ],
+          "annotated_keywords": [
+            "Cunning",
+            "Deceptive"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "jaccard": 0.6666666666666666
+          }
+        },
+        {
+          "instance_id": "benedictine_239764.json",
+          "model_keywords": [
+            "Dedicated",
+            "Emotional",
+            "Intelligent",
+            "Kind"
+          ],
+          "annotated_keywords": [
+            "Dedicated",
+            "Intelligent",
+            "Kind"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "jaccard": 0.75
+          }
+        },
+        {
+          "instance_id": "tambourine_9715.json",
+          "model_keywords": [
+            "Assassin",
+            "Battle-crazy",
+            "Cold-blooded",
+            "Loyal"
+          ],
+          "annotated_keywords": [
+            "Assassin",
+            "Battle-crazy",
+            "Cold-blooded"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "jaccard": 0.75
+          }
+        },
+        {
+          "instance_id": "kinjou__shingo_86595.json",
+          "model_keywords": [
+            "Determined",
+            "Leader-like",
+            "Passionate",
+            "Strict"
+          ],
+          "annotated_keywords": [
+            "Leader-like",
+            "Passionate",
+            "Strict"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "jaccard": 0.75
+          }
+        },
+        {
+          "instance_id": "beethoven_141765.json",
+          "model_keywords": [
+            "Arrogant",
+            "Eccentric",
+            "Genius",
+            "Naïve",
+            "Obsessive",
+            "Pure",
+            "Stubborn"
+          ],
+          "annotated_keywords": [
+            "Arrogant",
+            "Eccentric",
+            "Genius",
+            "Naïve",
+            "Pure",
+            "Stubborn"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "f1": 0.923076923076923,
+            "jaccard": 0.8571428571428571
+          }
+        },
+        {
+          "instance_id": "musashi_13736.json",
+          "model_keywords": [
+            "Combativeness",
+            "Loyalty",
+            "Strength"
+          ],
+          "annotated_keywords": [
+            "Combativeness",
+            "Strength"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8,
+            "jaccard": 0.6666666666666666
+          }
+        },
+        {
+          "instance_id": "tarumi_189061.json",
+          "model_keywords": [
+            "Dedicated",
+            "Friendly",
+            "Values nostalgia"
+          ],
+          "annotated_keywords": [
+            "Values nostalgia"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5,
+            "jaccard": 0.3333333333333333
+          }
+        },
+        {
+          "instance_id": "xie__lian_174773.json",
+          "model_keywords": [
+            "Compassionate",
+            "Emotional",
+            "Humble",
+            "Insecure",
+            "Kind",
+            "Loyal",
+            "Naive",
+            "Perceptive"
+          ],
+          "annotated_keywords": [
+            "Compassionate",
+            "Kind",
+            "Loyal",
+            "Self-Transformative"
+          ],
+          "metrics": {
+            "precision": 0.75,
+            "recall": 0.375,
+            "f1": 0.5,
+            "jaccard": 0.3333333333333333
+          }
+        },
+        {
+          "instance_id": "tadakuni_50689.json",
+          "model_keywords": [
+            "Caring",
+            "Clumsy",
+            "Common-sense",
+            "Selfish"
+          ],
+          "annotated_keywords": [
+            "Clumsy"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1": 0.4,
+            "jaccard": 0.25
+          }
+        },
+        {
+          "instance_id": "akabane__karma_71933.json",
+          "model_keywords": [
+            "Cold",
+            "Evil",
+            "Hardworking",
+            "Hates betrayers",
+            "Intelligent",
+            "Mischievous"
+          ],
+          "annotated_keywords": [
+            "Cold",
+            "Hardworking",
+            "Hates betrayers",
+            "Intelligent",
+            "Mischievous"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091,
+            "jaccard": 0.8333333333333334
+          }
+        },
+        {
+          "instance_id": "satan__principal_toenail_of_6587.json",
+          "model_keywords": [
+            "Cunning",
+            "Dominating",
+            "Evil",
+            "Perverted",
+            "Villainous"
+          ],
+          "annotated_keywords": [
+            "Dominating",
+            "Evil",
+            "Perverted",
+            "Villainous"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.888888888888889,
+            "jaccard": 0.8
+          }
+        },
+        {
+          "instance_id": "cassidy__butch_74647.json",
+          "model_keywords": [
+            "Cunning",
+            "Fearless",
+            "Leadership",
+            "Passionate"
+          ],
+          "annotated_keywords": [
+            "Cunning",
+            "Underhanded"
+          ],
+          "metrics": {
+            "precision": 0.5,
+            "recall": 0.25,
+            "f1": 0.3333333333333333,
+            "jaccard": 0.2
+          }
+        },
+        {
+          "instance_id": "fuurinji__miu_2591.json",
+          "model_keywords": [
+            "Cat-Loving",
+            "Diligent",
+            "Humble",
+            "Kind",
+            "Socially Awkward"
+          ],
+          "annotated_keywords": [
+            "Cat-Loving",
+            "Humble",
+            "Kind",
+            "Socially Awkward"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.888888888888889,
+            "jaccard": 0.8
+          }
+        },
+        {
+          "instance_id": "tree_youkai_45009.json",
+          "model_keywords": [
+            "Antisocial",
+            "Cold-hearted",
+            "Mean-spirited",
+            "Mischievous"
+          ],
+          "annotated_keywords": [
+            "Antisocial",
+            "Mischievous"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "jaccard": 0.5
+          }
+        },
+        {
+          "instance_id": "gretel_168563.json",
+          "model_keywords": [
+            "Aggressive",
+            "Cold-hearted",
+            "Cunning"
+          ],
+          "annotated_keywords": [
+            "Aggressive",
+            "Bullying",
+            "Cold-hearted",
+            "Cunning"
+          ],
+          "metrics": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571,
+            "jaccard": 0.75
+          }
+        },
+        {
+          "instance_id": "ikuno_155686.json",
+          "model_keywords": [
+            "Bookish",
+            "Calm",
+            "Introverted",
+            "Reserved"
+          ],
+          "annotated_keywords": [
+            "Bookish",
+            "Calm",
+            "Introverted",
+            "Reserved"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "jaccard": 1.0
+          }
+        },
+        {
+          "instance_id": "beryes_101257.json",
+          "model_keywords": [
+            "Fighting狂",
+            "Loyal",
+            "Mysterious",
+            "Skilled Swordsman"
+          ],
+          "annotated_keywords": [
+            "Fighting狂",
+            "Loyal",
+            "Skilled Swordsman"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "jaccard": 0.75
+          }
+        },
+        {
+          "instance_id": "greyrat__sauros_boreas_118149.json",
+          "model_keywords": [
+            "Dignified",
+            "Responsible",
+            "Strict"
+          ],
+          "annotated_keywords": [
+            "Dignified"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1": 0.5,
+            "jaccard": 0.3333333333333333
+          }
+        },
+        {
+          "instance_id": "mutsuki__hajime_139382.json",
+          "model_keywords": [
+            "Charismatic",
+            "Compassionate",
+            "Leader-like"
+          ],
+          "annotated_keywords": [
+            "Charismatic",
+            "Charmingly Alluring",
+            "Compassionate",
+            "Leader-like"
+          ],
+          "metrics": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571,
+            "jaccard": 0.75
+          }
+        },
+        {
+          "instance_id": "fujiwara__naeka_11144.json",
+          "model_keywords": [
+            "Dutiful",
+            "Hardworking",
+            "Naive",
+            "Troubled"
+          ],
+          "annotated_keywords": [
+            "Naive"
+          ],
+          "metrics": {
+            "precision": 1.0,
+            "recall": 0.25,
+            "f1": 0.4,
+            "jaccard": 0.25
+          }
+        }
+      ]
+    }
+  }
+}
